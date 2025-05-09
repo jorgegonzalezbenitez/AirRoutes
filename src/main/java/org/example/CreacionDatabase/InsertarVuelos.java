@@ -1,4 +1,4 @@
-package org.example;
+package org.example.CreacionDatabase;
 
 import org.neo4j.driver.*;
 
@@ -162,7 +162,7 @@ public class InsertarVuelos{
                     {"Tenerife Norte (TFN)", "Londres (LGW)", "Ryanair", 90, 245},
                     {"Tenerife Norte (TFN)", "París (ORY)", "Transavia France", 90, 240},
                     {"Tenerife Norte (TFN)", "París (ORY)", "Air Europa", 95, 245},
-                    {"Tenerife Norte (TFN)", "Ámsterdam (AMS)", "Transavia", 95, 240},
+                    {"Tenerife Norte (TFN)", "Ámsterdam (AMS)", "Transavia France", 95, 240},
                     {"Tenerife Norte (TFN)", "Ámsterdam (AMS)", "KLM", 100, 245},
                     {"Tenerife Norte (TFN)", "Bruselas (BRU)", "Brussels Airlines", 100, 240},
                     {"Tenerife Norte (TFN)", "Bruselas (BRU)", "Ryanair", 105, 245},
@@ -211,7 +211,7 @@ public class InsertarVuelos{
                     {"Fuerteventura (FUE)", "Londres (LGW)", "British Airways", 95, 245},
                     {"Fuerteventura (FUE)", "París (ORY)", "Transavia France", 95, 240},
                     {"Fuerteventura (FUE)", "París (ORY)", "Air France", 100, 245},
-                    {"Fuerteventura (FUE)", "Ámsterdam (AMS)", "Transavia", 100, 240},
+                    {"Fuerteventura (FUE)", "Ámsterdam (AMS)", "Transavia France", 100, 240},
                     {"Fuerteventura (FUE)", "Ámsterdam (AMS)", "KLM", 105, 250},
                     {"Fuerteventura (FUE)", "Bruselas (BRU)", "Brussels Airlines", 105, 240},
                     {"Fuerteventura (FUE)", "Bruselas (BRU)", "Ryanair", 110, 250},
@@ -250,7 +250,7 @@ public class InsertarVuelos{
                     // Vuelos internacionales
                     {"Lanzarote (ACE)", "Londres (LGW)", "easyJet", 95, 240},
                     {"Lanzarote (ACE)", "París (ORY)", "Air Europa", 100, 240},
-                    {"Lanzarote (ACE)", "Ámsterdam (AMS)", "Transavia", 105, 240},
+                    {"Lanzarote (ACE)", "Ámsterdam (AMS)", "Transavia France", 105, 240},
                     {"Lanzarote (ACE)", "Bruselas (BRU)", "easyJet", 110, 240},
                     {"Lanzarote (ACE)", "Milán (MXP)", "Ryanair", 90, 240},
                     {"Lanzarote (ACE)", "Ginebra (GVA)", "Air Europa", 85, 240},
@@ -335,7 +335,7 @@ public class InsertarVuelos{
                     {"La Palma (SPC)", "Londres (LGW)", "easyJet", 110, 240},
                     {"La Palma (SPC)", "Londres (LGW)", "Ryanair", 110, 240},
                     {"La Palma (SPC)", "Londres (LGW)", "Air Europa", 110, 240},
-                    {"La Palma (SPC)", "París (ORY)", "Transavia", 120, 240},
+                    {"La Palma (SPC)", "París (ORY)", "Transavia France", 120, 240},
                     {"La Palma (SPC)", "París (ORY)", "Ryanair", 120, 240},
                     {"La Palma (SPC)", "París (ORY)", "Air Europa", 120, 240},
                     {"La Palma (SPC)", "Ámsterdam (AMS)", "Transavia", 125, 240},
@@ -345,7 +345,7 @@ public class InsertarVuelos{
                     {"La Palma (SPC)", "Bruselas (BRU)", "Air Europa", 130, 240},
                     {"La Palma (SPC)", "Bruselas (BRU)", "Ryanair", 130, 240},
                     {"La Palma (SPC)", "Zúrich (ZRH)", "Edelweiss Air", 115, 240},
-                    {"La Palma (SPC)", "Zúrich (ZRH)", "Swiss International Air Lines", 115, 240},
+                    {"La Palma (SPC)", "Zúrich (ZRH)", "Swiss", 115, 240},
                     {"La Palma (SPC)", "Zúrich (ZRH)", "Air Europa", 115, 240},
                     {"La Palma (SPC)", "Düsseldorf (DUS)", "Eurowings", 120, 240},
                     {"La Palma (SPC)", "Düsseldorf (DUS)", "Ryanair", 120, 240},
@@ -423,7 +423,7 @@ public class InsertarVuelos{
                     {"La Gomera (GMZ)", "Bruselas (BRU)", "Air Europa", 130, 240},
                     {"La Gomera (GMZ)", "Bruselas (BRU)", "Ryanair", 130, 240},
                     {"La Gomera (GMZ)", "Zúrich (ZRH)", "Edelweiss Air", 115, 240},
-                    {"La Gomera (GMZ)", "Zúrich (ZRH)", "Swiss International Air Lines", 115, 240},
+                    {"La Gomera (GMZ)", "Zúrich (ZRH)", "Swiss", 115, 240},
                     {"La Gomera (GMZ)", "Zúrich (ZRH)", "Air Europa", 115, 240},
                     {"La Gomera (GMZ)", "Düsseldorf (DUS)", "Eurowings", 120, 240},
                     {"La Gomera (GMZ)", "Düsseldorf (DUS)", "Ryanair", 120, 240},
@@ -491,17 +491,17 @@ public class InsertarVuelos{
                     {"El Hierro (VDE)", "Londres (LGW)", "easyJet", 130, 250},
                     {"El Hierro (VDE)", "Londres (LGW)", "Ryanair", 130, 250},
                     {"El Hierro (VDE)", "Londres (LGW)", "Air Europa", 130, 250},
-                    {"El Hierro (VDE)", "París (ORY)", "Transavia", 140, 250},
+                    {"El Hierro (VDE)", "París (ORY)", "Transavia France", 140, 250},
                     {"El Hierro (VDE)", "París (ORY)", "Ryanair", 140, 250},
                     {"El Hierro (VDE)", "París (ORY)", "Air Europa", 140, 250},
-                    {"El Hierro (VDE)", "Ámsterdam (AMS)", "Transavia", 145, 250},
+                    {"El Hierro (VDE)", "Ámsterdam (AMS)", "Transavia France", 145, 250},
                     {"El Hierro (VDE)", "Ámsterdam (AMS)", "easyJet", 145, 250},
                     {"El Hierro (VDE)", "Ámsterdam (AMS)", "Air Europa", 145, 250},
                     {"El Hierro (VDE)", "Bruselas (BRU)", "easyJet", 150, 250},
                     {"El Hierro (VDE)", "Bruselas (BRU)", "Ryanair", 150, 250},
                     {"El Hierro (VDE)", "Bruselas (BRU)", "Air Europa", 150, 250},
                     {"El Hierro (VDE)", "Zúrich (ZRH)", "Edelweiss Air", 135, 250},
-                    {"El Hierro (VDE)", "Zúrich (ZRH)", "Swiss International Air Lines", 135, 250},
+                    {"El Hierro (VDE)", "Zúrich (ZRH)", "Swiss", 135, 250},
                     {"El Hierro (VDE)", "Zúrich (ZRH)", "Air Europa", 135, 250},
                     {"El Hierro (VDE)", "Düsseldorf (DUS)", "Eurowings", 140, 250},
                     {"El Hierro (VDE)", "Düsseldorf (DUS)", "Ryanair", 140, 250},
@@ -627,5 +627,6 @@ public class InsertarVuelos{
         } catch (Exception e) {
             e.printStackTrace();
         }
+
     }
 }

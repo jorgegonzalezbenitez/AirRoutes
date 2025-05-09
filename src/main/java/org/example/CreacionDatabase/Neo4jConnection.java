@@ -1,4 +1,4 @@
-package org.example;
+package org.example.CreacionDatabase;
 
 import org.neo4j.driver.*;
 
